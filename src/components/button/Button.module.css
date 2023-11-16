@@ -1,0 +1,39 @@
+.buttonRoot {
+    margin: 5px 0;
+    cursor: pointer;
+    width: 200px;
+    max-width: 225px;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: #46e393;
+    color: #000;
+    font-size: 16px;
+    border: none;
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    transition: .1s all ease-in-out;
+}
+
+.buttonRoot:hover {
+    background-color: #35ab6e;
+    transition: .1s all ease-in-out;
+}
+
+.buttonRoot:active {
+    background-color: #2a8757;
+    transition: .1s all ease-in-out;
+}
+
+.iconContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iconContainer > svg {
+    width: 15px;
+    height: 15px;
+}
