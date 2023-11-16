@@ -14,17 +14,17 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    transition: .1s all ease-in-out;
+    transition: 0.1s all ease-in-out;
 }
 
 .buttonRoot:hover {
     background-color: #35ab6e;
-    transition: .1s all ease-in-out;
+    transition: 0.1s all ease-in-out;
 }
 
 .buttonRoot:active {
     background-color: #2a8757;
-    transition: .1s all ease-in-out;
+    transition: 0.1s all ease-in-out;
 }
 
 .iconContainer {
