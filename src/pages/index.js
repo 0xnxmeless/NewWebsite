@@ -45,12 +45,21 @@ const Home = () => {
     return (
         <div className={spaceMono.className}>
             <Head>
-                <title>0xnxmeless - home</title>
-                <meta name="description" content="welcome to my space" />
+                <title>0xnxmeless - home </title>
                 <meta
                     name="viewport"
-                    content="width=device-width, initial-scale=1"
+                    content="width=device-width, initial-scale=1, shrink-to-fit=no"
                 />
+                <meta name="description" content="welcome to my space! :D" />
+                <meta name="og:description" content="welcome to my space! :D" />
+                <meta
+                    name="twitter:description"
+                    content="welcome to my space! :D"
+                />
+                <meta httpEquiv="x-ua-compatible" content="ie=edge" />
+                <meta property="theme-color" content="#46e393" />
+                <meta property="og:title" content="0xnxmeless - home" />
+                <link rel="icon" href="/favicon.ico" />
             </Head>
             <div className={styles.main}>
                 <img src="profile.jpg" />

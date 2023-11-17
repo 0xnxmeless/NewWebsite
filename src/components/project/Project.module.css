@@ -27,9 +27,9 @@
     gap: 5px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     .projectContainer {
-        width: 85vw;
+        width: 75vw;
     }
 
     .projectRoot {
