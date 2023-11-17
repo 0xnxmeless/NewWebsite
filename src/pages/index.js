@@ -59,6 +59,7 @@ const Home = () => {
                 <meta httpEquiv="x-ua-compatible" content="ie=edge" />
                 <meta property="theme-color" content="#46e393" />
                 <meta property="og:title" content="0xnxmeless - home" />
+                <meta property="og:image" content="/profile.jpg" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <div className={styles.main}>
